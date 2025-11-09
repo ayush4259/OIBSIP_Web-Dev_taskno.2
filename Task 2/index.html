@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header data-aos="fade-down">
+    <div class="logo">♠ A.S</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text" data-aos="fade-right">
+      <h1>Ayush Srivastava</h1>
+      <p>Web Developer • Designer • Creative Thinker</p>
+      <a href="#about" class="btn">My Story</a>
+    </div>
+
+    <div class="hero-img" data-aos="fade-left">
+      <img src="My IMG.jpeg" alt="Ayush Photo">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate Web Developer and Designer from India.
+      I create modern, responsive & interactive websites with clean UI & UX.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <h2 data-aos="fade-up">What I Do</h2>
+    <div class="cards">
+      <div class="card" data-aos="zoom-in">
+        <h3>Product Designer</h3>
+        <p>UI/UX for brands & startups</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="200">
+        <h3>Branding Designer</h3>
+        <p>Logo & social design</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="400">
+        <h3>Full-Stack Developer</h3>
+        <p>Responsive web apps</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="stats">
+    <div class="stat" data-aos="fade-up">
+      <h1>1+</h1>
+      <p>Years Experience</p>
+    </div>
+    <div class="stat" data-aos="fade-up" data-aos-delay="200">
+      <h1>30+</h1>
+      <p>Projects Completed</p>
+    </div>
+    <div class="stat" data-aos="fade-up" data-aos-delay="400">
+      <h1>10+</h1>
+      <p>Clients Satisfied</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects" data-aos="fade-up">
+    <h2>My Projects</h2>
+    <div class="grid">
+      <div class="project">Portfolio Website</div>
+      <div class="project">Branding Template</div>
+      <div class="project">E-Commerce UI</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Work With Me</h2>
+    <p>Contact me for projects & collaborations</p>
+
+    <form>
+      <input type="text" placeholder="Name">
+      <input type="email" value="ambrosdean22@gmail.com">
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>© Ayush Srivastava | 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+  </script>
+
+</body>
+</html>
