@@ -36,5 +36,3 @@ Customize your data inside the index.html file
 Email: ambrosdean22@gmail.com
 Feel free to reach out for collaboration or opportunities!
 
-☘️ License
-This project is free to use and customize for personal purposes.
